@@ -1,0 +1,24 @@
+.footer {
+    width: 100%;
+    background-color: var(--grayish-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &__logo {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    color: white;
+
+    .columns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
