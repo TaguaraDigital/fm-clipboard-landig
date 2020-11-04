@@ -5,6 +5,10 @@
     align-items: center;
     align-content: center;
 
+    @include table {
+        flex-direction: row;
+    }
+
     &__logo {
         padding: 2rem;
     }
