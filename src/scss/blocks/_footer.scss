@@ -1,24 +1,47 @@
 .footer {
     width: 100%;
     background-color: var(--grayish-blue);
+    color: var(--dark-grayish-blue);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    
+    @include table {
+        padding: 2rem 10rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
     &__logo {
         width: 2.5rem;
         height: 2.5rem;
     }
+    
+    .social {
+        .icon {
+            color: var(--dark-grayish-blue);
+            font-size: 2rem; 
+            &:not(:last-child){
+                margin-right: 1rem ;
+            }
 
-    color: white;
-
+        }
+    }
+ 
     .columns {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: baseline;
         text-align: center;
+        
+        &__item {
+            &:not(:last-child){
+                margin-bottom: 1rem ;
+            }
+        }
     }
 }
