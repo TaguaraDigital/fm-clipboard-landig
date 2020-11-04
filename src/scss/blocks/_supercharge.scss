@@ -2,8 +2,8 @@
     width: 100%;
     height: 100%;
     position: relative;
-    padding: 4.25rem 1.5rem;
-    
+    padding: 0 1.5rem;
+     
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -16,7 +16,9 @@
     }
     
     &__header {
+        width: 100%;
         max-width: 700px;
+        margin-top: 4.5rem;
         display: flex;
         flex-direction: column;;
         justify-content: flex-start;
@@ -62,5 +64,27 @@
 .supercharge-service {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     margin-top: 2rem;
+
+    &__icon {
+        width: 36px;
+        height: 36px;
+        margin-top: 2rem;
+    }
+
+    &__title {
+        font-size: 1rem;
+        color: var(--dark-grayish-blue);
+        margin-top: 1rem;
+    }
+
+    &__description {
+        font-size: .75rem;
+        line-height: 1.5;
+        margin-top: 1rem;
+        padding: 0 .5rem;
+
+    }
 }

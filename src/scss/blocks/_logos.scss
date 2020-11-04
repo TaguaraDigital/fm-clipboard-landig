@@ -1,15 +1,16 @@
 .logos{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    align-content: center;
+    margin-top: 5rem;
 
     @include table {
         flex-direction: row;
     }
 
     &__logo {
-        padding: 2rem;
+        width: 100%;
+        padding: 2rem 6rem;
     }
 }

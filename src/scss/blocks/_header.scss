@@ -1,12 +1,10 @@
 .header {
     width: 100%;
-    background-color: lightyellow;
-    
-    padding: 6rem 1.5rem;
+    padding: 0 1.5rem;
     
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     
@@ -16,20 +14,21 @@
     background-repeat: no-repeat;
     
     @include table {
-        padding: 8rem 1.5rem;
         background-image: url('../../assets/images/bg-header-desktop.png');
     }
 
     &__logo {
         width: 100px;
         height: 100px;
-
+        margin-top: 6rem;
+        
         img {
             display: block;
             max-width: 100%;
         }
-
+        
         @include table {
+            margin-top: 8rem;
             width: 130px;
             height: 130px;
         }
@@ -86,7 +85,7 @@
 
     &__button {
         &:last-child {
-            margin-top: 1rem;
+            margin-top: 1.25rem;
         }
 
         @include table {  
