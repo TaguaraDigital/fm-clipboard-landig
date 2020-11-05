@@ -92,6 +92,7 @@
       }
       
       &__title {
+         color: var(--dark-grayish-blue);
          font-size: 1.125rem;
          font-weight: 600;
          margin-bottom: 1rem;
@@ -130,7 +131,7 @@
  
    font-size: .875rem;
    letter-spacing: .1rem;
-   padding: .9rem 2rem;
+   padding: .9rem 1rem;
    
    @include table {
       width: fit-content;

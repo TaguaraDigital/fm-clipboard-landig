@@ -15,7 +15,7 @@
         padding: 2rem 10rem;
         flex-direction: row;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
     }
     
     &__logo {
@@ -31,12 +31,13 @@
         align-items: center;
         text-align: center;
         font-size: 0.875rem;
-
+        
         @include table {
             align-items: baseline;
         }
         
         &__item {
+            font-size: 0.875rem;
             margin-top: 1.5rem;
             cursor: pointer;
 
