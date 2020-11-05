@@ -10,10 +10,6 @@
    align-items: center;
    text-align: center;
    
-   @include table {
-      // padding: 2.625rem 1.5rem;
-   }
-
    &__header {
       width: 100%;
       margin-top: 7.75rem;
@@ -24,6 +20,7 @@
       align-items: center;
       
       @include table {
+         margin-top: 9rem;
          justify-content: flex-start;
 
       }
@@ -38,6 +35,7 @@
       color: var(--dark-grayish-blue);
       
       @include table {
+         margin-bottom: 1rem;
          font-size: 2.25rem;
       }
    }
@@ -45,8 +43,9 @@
    &__txt {
       font-size: .8125rem;
       line-height: 1.6;
-
+      
       @include table {
+         line-height: 1.7;
          font-size: 1.125rem;
       }
    }
@@ -59,8 +58,9 @@
    grid-template-columns: 1fr;
    justify-content: flex-start;
    align-items: center;
-
+   
    @include table {
+      margin-top: 4.5rem;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: 1fr;
    }

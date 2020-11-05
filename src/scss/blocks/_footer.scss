@@ -11,6 +11,7 @@
     padding: 3rem 0;
     
     @include table {
+        margin-top: 9rem;
         padding: 2rem 10rem;
         flex-direction: row;
         justify-content: space-between;

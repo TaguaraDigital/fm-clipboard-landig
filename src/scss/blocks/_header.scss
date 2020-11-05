@@ -78,7 +78,7 @@
         align-items: center;
         
         @include table {
-            margin-top: 1.5rem;
+            margin-top: 1.8rem;
             flex-direction: row;
         } 
     }
@@ -90,7 +90,7 @@
 
         @include table {  
             &:not(:last-child) {
-                margin-right: 2rem;
+                margin-right: 1.5rem;
             }
         }
     }

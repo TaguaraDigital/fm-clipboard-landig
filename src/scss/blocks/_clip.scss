@@ -4,7 +4,7 @@
    position: relative;
    margin-top: 4.5rem;
    padding: 0 .5rem;
-
+   
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
@@ -12,13 +12,13 @@
    text-align: center;
    
    @include table {
-      padding: 12rem 1.5rem 5rem;
+      margin-top: 6rem;
+      padding: 0rem 1.5rem;
       
    }
    
    &__header {
       max-width: 700px;
-      margin-top: 9rem;
       display: flex;
       flex-direction: column;;
       justify-content: flex-start;
@@ -39,6 +39,7 @@
       color: var(--dark-grayish-blue);
       
       @include table {
+         margin-bottom: 1rem;
          font-size: 2.25rem;
       }
    }
@@ -63,7 +64,7 @@
       align-items: center;
       
       @include table {
-          margin-top: 1.5rem;
+         //  margin-top: 1.5rem;
           flex-direction: row;
       } 
    }

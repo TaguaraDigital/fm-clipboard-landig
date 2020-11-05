@@ -6,9 +6,13 @@
     align-content: center;
     text-align: center;
     margin-top: 4rem;
-
+    
     @include table {
         flex-direction: row;
+        justify-content: space-between;
+        margin-top: 8rem;
+        padding: 0 10rem;
+        flex-wrap: wrap;
     }
 
     &__logo {
@@ -19,6 +23,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
+        @include table {
+            width: 180px;
+            height: 80px;
+        }
     }
     
     &__img {

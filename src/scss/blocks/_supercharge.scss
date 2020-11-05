@@ -10,11 +10,6 @@
     align-items: center;
     text-align: center;
     
-    @include table {
-        padding: 12rem 1.5rem 5rem;
-
-    }
-    
     &__header {
         width: 100%;
         max-width: 700px;
@@ -25,7 +20,8 @@
         align-items: center;
         
         @include table {
-        justify-content: flex-start;
+            margin-top: 1.5rem;
+            justify-content: flex-start;
         }
     }
 
@@ -38,7 +34,8 @@
         color: var(--dark-grayish-blue);
         
         @include table {
-           font-size: 2.25rem;
+            font-size: 2.25rem;
+            margin-bottom: 1rem;
         }
      }
      
@@ -68,8 +65,18 @@
     justify-content: flex-start;
     align-items: center;
 
+    @include table {
+        width: 350px;
+        padding: 0 2rem;
+        flex-wrap: wrap;
+    }
+
     &__icon {
         height: 30px;
+
+        @include table {
+            height: 42px;
+        }
         img {
             height: 100%;
         }
@@ -82,6 +89,11 @@
         letter-spacing: .05rem;
         color: var(--dark-grayish-blue);
         margin-top: 2rem;
+        
+        @include table {
+            margin-top: 2.5rem;
+            font-size: 1.5rem;
+        }
     }
 
     &__description {
