@@ -2,19 +2,20 @@
    width: 100%;
    height: 100%;
    position: relative;
-   padding: 0 1.5rem;
-    
+   margin-top: 4.5rem;
+   padding: 0 .5rem;
+
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
    align-items: center;
    text-align: center;
-    
+   
    @include table {
       padding: 12rem 1.5rem 5rem;
-
+      
    }
-    
+   
    &__header {
       max-width: 700px;
       margin-top: 9rem;
@@ -22,14 +23,15 @@
       flex-direction: column;;
       justify-content: flex-start;
       align-items: center;
-        
+      
       @include table {
          justify-content: flex-start;
       }
    }
-
+   
    &__title {
       margin: 0;
+      padding: 0 2rem;
       font-size: 1.25rem;
       font-weight: 600;
       line-height: 1.5;
